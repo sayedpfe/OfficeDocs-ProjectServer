@@ -167,7 +167,9 @@ An admin can do the following to turn Roadmap on or off for their organization:
  
 ![Roadmap Setting](media/projsettingsrm.png)
 
-4. Project Roadmap may requires the Project Roadmap connector to be added to a **[Data Policy](https://admin.powerplatform.microsoft.com/dlp)** in the Power Platform admin center.  At the moment, the [Project Roadmap connector does not show up in the GUI of the **Data Policy**](https://github.com/MicrosoftDocs/power-platform/issues/177). 
+## Create custom Data Policy connector for Project Roadmap  
+
+Project Roadmap may requires the Project Roadmap connector to be added to a **[Data Policy](https://admin.powerplatform.microsoft.com/dlp)** in the Power Platform admin center.  At the moment, the [Project Roadmap connector does not show up in the GUI of the **Data Policy**](https://github.com/MicrosoftDocs/power-platform/issues/177). 
 Therefore, please follow along this guidance in order to add the Project Roadmap connector to the data group **Business** in the desired **Data Policy**.
 
 ```powershell
